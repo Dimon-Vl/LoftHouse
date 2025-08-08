@@ -37,4 +37,26 @@
         font-size: 16px;
         line-height: 24px;
     }
+
+    &__form {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+    }
+
+    &__form-item {
+        height: 50px;
+    }
+
+    &__privacy {
+        // font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 16px;
+        text-align: center;
+        color: $l-grey;
+    }
+
+    
 }

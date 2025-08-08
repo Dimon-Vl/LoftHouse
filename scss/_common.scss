@@ -10,6 +10,26 @@ body {
     color: white;
 }
 
+input[type="text"],
+input[type="tel"] {
+    padding: 12px 15px;
+    font-size: 18px;
+    background: rgba(255, 255, 255, 0.2);
+    outline: none;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.8);
+    text-shadow: 0 0 1px rgba(0, 0, 0, 0.8);
+
+    &::placeholder {
+        color: rgba(255, 255, 255, 0.7);
+        font-size: 16px;
+    }
+
+    //     &:focus {
+    // background: rgba(255, 255, 255, 0.2);
+    //     }
+}
+
 // font-family: 'Post No Bills Jaffna SemiBold';
 // font-family: 'Raleway';
 // font-family: 'Playfair Display';
